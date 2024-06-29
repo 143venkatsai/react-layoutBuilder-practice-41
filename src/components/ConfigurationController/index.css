@@ -1,0 +1,54 @@
+/* Write your CSS here */
+
+.controller-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #475569;
+  padding: 0px 100px;
+}
+
+.controller-heading {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-family: 20px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.controller-list {
+  padding-left: 0px;
+}
+
+.controller-item {
+  list-style-type: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input-element {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.label-element {
+  color: #e2e8f0;
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .controller-container {
+    padding: 10px 40px;
+  }
+
+  .controller-heading {
+    font-weight: bold;
+    font-size: 40px;
+  }
+}
